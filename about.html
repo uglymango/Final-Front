@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Varkala</title>
+    <link rel="shortcut icon" href="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/favicon.png"
+        type="image/x-icon" />
+    <link rel="stylesheet" href="assets/styles/about.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script defer src="./assets/scripts/about.js"></script>
+</head>
+<body>
+    <header>
+        <div class="top-row d-flex align-items-center">
+            <div class="container-fluid">
+                <div class="d-flex align-items-center top-row-content">
+                    <div class="left-side-contacts-container col-md-4">
+                        <ul class="contacts-list d-flex flex-row">
+                            <li>
+                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-phone"></i>
+                            </li>
+                            <li class="phone-number">020-800-456-747</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 col-sm-6 text-container">
+                        <p>Free in-store delivery</p>
+                    </div>
+                    <div class="col-md-4 col-sm-6 language-currency d-flex justify-content-end align-items-center">
+                        <div class="dropdown language">
+                            <a class="btn dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                English
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end animate slideIn"
+                                aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">German</a></li>
+                                <li><a class="dropdown-item" href="#">French</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown currency">
+                            <a class="btn dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                USD
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end animate slideIn"
+                                aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">EUR</a></li>
+                                <li><a class="dropdown-item" href="#">GBP</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar nav1 navbar-expand-lg bg-transparent d-flex">
+            <div class="container-fluid nav1">
+                <a class="navbar-brand index-btn" href="index.html">Varkala</a>
+                <form class="d-flex search-bar" role="search">
+                    <input class="search-nav form-control me-2" type="search" placeholder="Search"
+                        aria-label="Search" />
+                    <button class="search-btn d-flex">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </form>
+                <div class="login-checkout-container">
+                    <ul class="d-flex flex-row icons-list justify-content-space-between">
+                        <li>
+                            <button><i class="fa-regular fa-user"></i></button>
+                        </li>
+                        <li>
+                            <button><i class="fa-regular fa-heart"></i></button>
+                        </li>
+                        <li>
+                            <button><i class="fa-solid fa-bag-shopping"></i></button>
+                        </li>
+                        <span class="shopping-cart-items-count">0</span>
+                        <li>
+                            <button><i class="fa-solid fa-bars-staggered"></i></button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </nav>
+    </header>
+    <div class="varkalacontainer">
+        <div class="row">
+            <div class="col-xl-2">
+                <hr />
+            </div>
+            <div class="col-xl-6">
+                <h6 class="text-primary text-uppercase letter-spacing-5 mb-3">
+                    About us
+                </h6>
+                <h1>We are Varkala</h1>
+                <p class="text-muted">
+                    One morning, when Gregor Samsa woke from troubled dreams, he found
+                    himself transformed in his bed into a horrible vermin. He lay on his
+                    armour-like back, and if he lifted his head a little he could see
+                    his brown belly, slightly domed and divided by arches into stiff
+                    sections
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="historycontainer">
+        <div class="row r1">
+            <div class="col-xl-2">
+                <hr />
+            </div>
+            <div class="col-xl-8">
+                <h6 class="text-primary text-uppercase letter-spacing-5 mb-3">
+                    The old times
+                </h6>
+                <h2>History of Varkala</h2>
+            </div>
+        </div>
+        <div class="row r2">
+            <div class="col-sm-4">
+                <img class="historyimg" src="./assets/images/historyvarkalaimg.jpeg" alt="" />
+            </div>
+            <div class="col-sm-8 col-md-6">
+                <div>
+                    <h6 class="text-uppercase text-muted letter-spacing-5 mb-1">
+                        Humble beginnings
+                    </h6>
+                    <h2>We started as little</h2>
+                    <p class="text-muted">
+                        The bedding was hardly able to cover it and seemed ready to slide
+                        off any moment. His many legs, pitifully thin compared with the
+                        size of the rest of him, waved about helplessly as he looked.
+                        "What's happened to me?" he thought. It wasn't a dream.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row r3">
+            <div class="col-sm-8 col-md-7 col-lg-6">
+                <div>
+                    <h6 class="text-uppercase text-muted letter-spacing-5 mb-1">
+                        Varkala today
+                    </h6>
+                    <h2>And then we grew a bit</h2>
+                    <p class="text-muted">
+                        The bedding was hardly able to cover it and seemed ready to slide
+                        off any moment. His many legs, pitifully thin compared with the
+                        size of the rest of him, waved about helplessly as he looked.
+                        "What's happened to me?" he thought. It wasn't a dream.
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-4 col-md-5">
+                <img class="historyvarkalaimage2" src="./assets/images/varkalaimage2.jpeg" alt="" />
+            </div>
+        </div>
+    </div>
+    <section class="milestones-section">
+        <div class="milestones-container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <h2>Varkala's Milestones</h2>
+                    <p class="text-lg text-muted">
+                        One morning, when Gregor Samsa woke from troubled dreams, he found
+                        himself transformed in his bed into a horrible vermin. He lay on
+                        his armour-like back, and if he lifted his head a little he could
+                        see his brown belly, slightly domed and divided by arches into
+                        stiff sections
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <h4>1995</h4>
+                            <p class="text-muted">
+                                One morning, when Gregor Samsa woke from troubled dreams, he
+                                found himself transformed in his bed into a horrible vermin
+                            </p>
+                        </div>
+                        <div class="col-sm-6">
+                            <h4>2000</h4>
+                            <p class="text-muted">
+                                The bedding was hardly able to cover it and seemed ready to
+                                slide off any moment. His many legs, pitifully thin compared
+                            </p>
+                        </div>
+                        <div class="col-sm-6">
+                            <h4>2010</h4>
+                            <p class="text-muted">
+                                His room, a proper human room although a little too small, lay
+                                peacefully between its four familiar walls. A collection
+                            </p>
+                        </div>
+                        <div class="col-sm-6">
+                            <h4>2018</h4>
+                            <p class="text-muted">
+                                Samsa was a travelling salesman - and above it there hung a
+                                picture that he had recently cut out of an illustrated magaz
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="foundersquote">
+        <div class="foundersquotecontainer">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="foundersphoto">
+                        <img src="./assets/images/foundersimage.jpeg" alt="" />
+                    </div>
+                </div>
+                <div class="col-lg-6 d-flex align-items-center">
+                    <div class="blockquotecontainer">
+                        <blockquote class="icon">
+                            <p class="text-xl">
+                                Samsa was a travelling salesman - and above it there hung a
+                                picture that he had recently cut out of an illustrated
+                                magazine and housed in a nice, gilded frame.
+                            </p>
+                            <h6 class="text-lg text-uppercase text-primary">
+                                — Frankie Kafka, Founder
+                            </h6>
+                        </blockquote>
+                        <p class="text-muted">
+                            Samsa was a travelling salesman - and above it there hung a
+                            picture that he had recently cut out of an illustrated magazine
+                            and housed in a nice, gilded frame.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="our-teamcontainer">
+        <div class="row">
+            <div class="col-xl-2">
+                <hr />
+            </div>
+            <div class="col-xl-10">
+                <h6 class="text-primary text-uppercase letter-spacing-5 mb-3">
+                    Our team
+                </h6>
+                <h1>People</h1>
+                <p class="text-muted">
+                    He must have tried it a hundred times, shut his eyes so that he
+                    wouldn't have to look at the floundering legs, and only stopped when
+                    he began to feel a mild, dull pain there that he had never felt
+                    before.
+                </p>
+                <div class="row">
+                    <div class="col-6 col-md-3 text-center mb-4">
+                        <img src="./assets/images/avatar-0.jpg" alt="" />
+                        <h4>Frankie Kafka</h4>
+                        <p class="text-sm text-muted">CEO & Founder</p>
+                    </div>
+                    <div class="col-6 col-md-3 text-center mb-4">
+                        <img src="./assets/images/avatar-1.jpg" alt="" />
+                        <h4>Brittney Day</h4>
+                        <p class="text-sm text-muted">CTO</p>
+                    </div>
+                    <div class="col-6 col-md-3 text-center mb-4">
+                        <img src="./assets/images/avatar-2.jpg" alt="" />
+                        <h4>Kim Cervantes</h4>
+                        <p class="text-sm text-muted">Marketing</p>
+                    </div>
+                    <div class="col-6 col-md-3 text-center mb-4">
+                        <img src="./assets/images/avatar-3.jpg" alt="" />
+                        <h4>Massey Armstrong</h4>
+                        <p class="text-sm text-muted">Customer care</p>
+                    </div>
+                    <div class="col-6 col-md-3 text-center mb-4">
+                        <img src="./assets/images/avatar-4.jpg" alt="" />
+                        <h4>B.J. Petersen</h4>
+                        <p class="text-sm text-muted">E-commerce</p>
+                    </div>
+                    <div class="col-6 col-md-3 text-center mb-4">
+                        <img src="./assets/images/avatar-5.jpg" alt="" />
+                        <h4>Mayra Holman</h4>
+                        <p class="text-sm text-muted">Customer care</p>
+                    </div>
+                    <div class="col-6 col-md-3 text-center mb-4">
+                        <img src="./assets/images/avatar-6.jpg" alt="" />
+                        <h4>Gabriel Fisher</h4>
+                        <p class="text-sm text-muted">Customer care</p>
+                    </div>
+                    <div class="col-6 col-md-3 text-center mb-4">
+                        <img src="./assets/images/avatar-7.jpg" alt="" />
+                        <h4>Jose Holman</h4>
+                        <p class="text-sm text-muted">Customer care</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="slider">
+        <div class="slider-container">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./assets/images/brand-6.svg" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/images/brand-1.svg" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/images/brand-2.svg" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/images/brand-3.svg" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/images/brand-4.svg" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/images/brand-5.svg" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/images/brand-1.svg" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/images/brand-2.svg" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/images/brand-3.svg" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/images/brand-4.svg" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/images/brand-1.svg" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/images/brand-2.svg" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/images/brand-3.svg" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/images/brand-4.svg" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/images/brand-5.svg" alt="" />
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+    <section class="prefooter">
+        <div class="prefootercontainer">
+            <div class="row">
+                <div class="col-lg-10 text-center">
+                    <h2>
+                        At Varkala, we want the right choice to be as easy as putting on a
+                        great T-shirt
+                    </h2>
+                </div>
+                <div class="col-lg-5 offset-lg-1">
+                    <p class="text-muted text-sm">
+                        One morning, when Gregor Samsa woke from troubled dreams, he found
+                        himself transformed in his bed into a horrible vermin. He lay on
+                        his armour-like back, and if he lifted his head a little he could
+                        see his brown belly, slightly domed and divided by arches into
+                        stiff sections
+                    </p>
+                </div>
+                <div class="col-lg-5">
+                    <p class="text-muted text-sm">
+                        The bedding was hardly able to cover it and seemed ready to slide
+                        off any moment. His many legs, pitifully thin compared with the
+                        size of the rest of him, waved about helplessly as he looked.
+                        "What's happened to me?" he thought. It wasn't a dream.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="bg-gray-100">
+            <div class="footer-container">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <i class="fa-solid fa-truck"></i>
+                        <div class="service-text">
+                            <h6 class="text-sm">Free shipping & return</h6>
+                            <p class="text-muted">Free Shipping over $300</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <i class="fa-solid fa-money-bill"></i>
+                        <div class="service-text">
+                            <h6 class="text-sm">Money back guarantee</h6>
+                            <p class="text-muted">30 Days Money Back Guarantee</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <i class="fa-solid fa-percent"></i>
+                        <div class="service-text">
+                            <h6 class="text-sm">Best prices</h6>
+                            <p class="text-muted">Always the best prices</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <i class="fa-solid fa-headset"></i>
+                        <div class="service-text">
+                            <h6 class="text-sm">020-800-456-747</h6>
+                            <p class="text-muted">24/7 Available Support</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-last text-muted">
+            <div class="footer-last-container">
+                <div class="row">
+                    <div class="col-lg-5 pr-lg-5 pr-xl-6 mb-5 mb-lg-0">
+                        <h6 class="text-dark">Be in touch</h6>
+                        <p class="text-sm">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At
+                            itaque temporibus.
+                        </p>
+                        <form action="">
+                            <div class="email-input-underlined">
+                                <input type="text" placeholder="Your Email Address" />
+                                <i class="fa-regular fa-envelope"></i>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="normal col-lg-7">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="expand-lg-collapse">
+                                    <h6 class="text-dark">Shop</h6>
+                                    <ul>
+                                        <li>
+                                            <a href="">For Women</a>
+                                        </li>
+                                        <li>
+                                            <a href="">For Men</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Stores</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Our Blog</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Shop</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="expand-lg-collapse">
+                                    <h6 class="text-dark">Company</h6>
+                                    <ul>
+                                        <li>
+                                            <a href="">Login</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Register</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Wishlist</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Our Products</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Checkouts</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="expand-lg-collapse">
+                                    <h6 class="text-dark">Your Account</h6>
+                                    <ul>
+                                        <li>
+                                            <a href="">Login</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Register</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Wishlist</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Our Products</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Checkouts</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="responsive col-lg-7">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <a class="shop responsive-footer-tags" href="#">Shop
+                                    <span class="expandable-plus">+</span>
+                                    <span class="expandable-minus">-</span></a>
+                            </div>
+                            <div class="shop expand-lg-collapse">
+                                <ul>
+                                    <li>
+                                        <a href="">For Women</a>
+                                    </li>
+                                    <li>
+                                        <a href="">For Men</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Stores</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Our Blog</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Shop</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-4">
+                                <a class="company responsive-footer-tags" href="#">Company
+                                    <span class="expandable-plus">+</span>
+                                    <span class="expandable-minus">-</span></a>
+                            </div>
+                            <div class="company expand-lg-collapse">
+                                <ul>
+                                    <li>
+                                        <a href="">For Women</a>
+                                    </li>
+                                    <li>
+                                        <a href="">For Men</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Stores</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Our Blog</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Shop</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-4">
+                                <a class="account responsive-footer-tags" href="#">Your Account
+                                    <span class="expandable-plus">+</span>
+                                    <span class="expandable-minus">-</span></a>
+                            </div>
+                            <div class="account expand-lg-collapse">
+                                <ul>
+                                    <li>
+                                        <a href="">For Women</a>
+                                    </li>
+                                    <li>
+                                        <a href="">For Men</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Stores</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Our Blog</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Shop</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-end-container">
+            <div class="row align-items-center">
+                <div class="col-lg-4">
+                    <p>© 2020 Your company. All rights reserved.</p>
+                </div>
+                <div class="col-lg-8">
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <a class="text-reset" href="#">Terms &amp; Conditions </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="text-reset" href="#">Privacy &amp; cookies </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="text-reset" href="#">Accessibility </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="text-reset" href="#">Customer Data Promise </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="modal fade modal-right show" id="sidebarCart" tabindex="-1" role="dialog" aria-modal="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <button class="closebtn" type="button" data-dismiss="modal" aria-label="Close">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="sidebar-cart-product-wrapper">
+                        <div class="customscrollbox" tabindex="0">
+                            <div class="customscrollbox-container">
+                                <div class="navbar-cart-product"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer sidebar-cart-footer shadow">
+                    <div class="w-100">
+                        <h5 class="mb-4">
+                            Subtotal: <span class="float-right">$0</span>
+                        </h5>
+                        <a class="btn btn-outline-dark btn-block mb-3" href="">View cart</a>
+                        <br />
+                        <a class="btn btn-danger btn-block" href="#">Clear Cart</a>
+                        <a class="btn btn-dark btn-block" href="#">Checkout</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar-modal" tabindex="-1" role="dialog" aria-modal="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <button class="closebtn" type="button" data-dismiss="modal" aria-label="Close">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </div>
+                <div class="modal-body px-5 pb-5">
+                    <div class="body-text-container">
+                        <h5>Varkala</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Home </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#">Disabled</a>
+                            </li>
+                            <div class="dropdown show">
+                                <a class="btn btn-secondary dropdown-toggle" href="#" role="button"
+                                    id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Dropdown link
+                                </a>
+
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" href="">Action</a><a class="dropdown-item" href=""> Another
+                                        action </a><a class="dropdown-item" href="">Something else here </a>
+                                </div>
+                            </div>
+                        </ul>
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <i class="fab fa-facebook-f"> </i>
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="fab fa-twitter"> </i>
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="fa-solid fa-phone"></i>
+                                020-800-456-747
+                            </li>
+                        </ul>
+                        <p class="text-sm text-muted mb-0">
+                            Samsa was a travelling salesman - and above it there hung a
+                            picture that he had recently cut out of an illustrated magazine
+                            and housed in a nice, gilded frame.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

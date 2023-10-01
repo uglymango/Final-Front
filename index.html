@@ -1,0 +1,1233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Varkala</title>
+    <link
+      rel="shortcut icon"
+      href="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/favicon.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="assets/styles/index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
+    <script defer src="./assets/scripts/index.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <style>
+        .products-row .col-md-4 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .products-row .col-md-4 img {
+            max-width: 100%;
+            width: 300px; 
+            height: 320px; 
+        }
+
+        .product-text-container {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+  <body>
+    <header>
+      <div class="top-row d-flex align-items-center">
+        <div class="container-fluid">
+          <div class="d-flex align-items-center top-row-content">
+            <div class="left-side-contacts-container col-md-4">
+              <ul class="contacts-list d-flex flex-row">
+                <li>
+                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li>
+                  <i class="fa-solid fa-phone"></i>
+                </li>
+                <li class="phone-number">020-800-456-747</li>
+              </ul>
+            </div>
+            <div class="col-md-4 col-sm-6 text-container">
+              <p>Free in-store delivery</p>
+            </div>
+            <div
+              class="col-md-4 col-sm-6 language-currency d-flex justify-content-end align-items-center"
+            >
+              <div class="dropdown language">
+                <a
+                  class="btn dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  English
+                </a>
+
+                <ul
+                  class="dropdown-menu dropdown-menu-end animate slideIn"
+                  aria-labelledby="navbarDropdown"
+                >
+                  <li><a class="dropdown-item" href="#">German</a></li>
+                  <li><a class="dropdown-item" href="#">French</a></li>
+                </ul>
+              </div>
+              <div class="dropdown currency">
+                <a
+                  class="btn dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  USD
+                </a>
+
+                <ul
+                  class="dropdown-menu dropdown-menu-end animate slideIn"
+                  aria-labelledby="navbarDropdown"
+                >
+                  <li><a class="dropdown-item" href="#">EUR</a></li>
+                  <li><a class="dropdown-item" href="#">GBP</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <nav class="navbar navbar-expand-lg bg-transparent d-flex">
+        <div class="container-fluid nav1">
+          <a class="navbar-brand index-btn" href="index.html">Varkala</a>
+            <form class="d-flex search-bar" role="search">
+              <input
+                class="search-nav form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="search-btn d-flex">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </form>
+            <div class="login-checkout-container">
+              <ul
+                class="d-flex flex-row icons-list justify-content-space-between"
+              >
+                <li>
+                  <button><i class="fa-regular fa-user"></i></button>
+                </li>
+                <li>
+                  <button><i class="fa-regular fa-heart"></i></button>
+                </li>
+                <li>
+                  <button><i class="fa-solid fa-bag-shopping"></i></button>
+                </li>
+                <span class="shopping-cart-items-count">0</span>
+                <li>
+                  <button><i class="fa-solid fa-bars-staggered"></i></button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <nav class="navbar navbar-expand-lg bg-transparent d-flex">
+        <div class="container-fluid responsive">
+          <a class="navbar-brand index-btn" href="index.html">Varkala</a>
+          <div class="login-checkout-container">
+            <ul
+              class="d-flex flex-row icons-list justify-content-space-between"
+            >
+              <li>
+                <button><i class="fa-regular fa-user"></i></button>
+              </li>
+              <li>
+                <button><i class="fa-regular fa-heart"></i></button>
+              </li>
+              <li>
+                <button><i class="fa-solid fa-bag-shopping"></i></button>
+              </li>
+              <span class="shopping-cart-items-count">0</span>
+            </ul>
+          </div>
+          <button class="staggered">
+            <i class="fa-solid fa-bars-staggered"></i>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <svg
+      class="custom-svg-blob"
+      viewBox="0 0 200 200"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        fill="#E0D4AB"
+        d="M41.4,-57.6C51.5,-49.7,55.9,-34.6,63.4,-18.9C70.9,-3.1,81.4,13.4,77.8,25.5C74.2,37.6,56.4,45.4,41.1,55.1C25.7,64.8,12.9,76.5,-2.6,80C-18,83.6,-36,79,-46.2,67.6C-56.4,56.2,-58.7,38,-59.9,22.3C-61.1,6.6,-61.1,-6.6,-59.1,-21.1C-57,-35.6,-52.9,-51.3,-42.7,-59.3C-32.5,-67.2,-16.2,-67.3,-0.3,-66.9C15.7,-66.5,31.3,-65.6,41.4,-57.6Z"
+        transform="translate(100 100)"
+        class="svg-blob"
+      />
+    </svg>
+    <div class="swiper-container">
+      <div class="swiper-wrapper d-flex">
+        <div class="swiper-slide">
+          <div class="slide-container">
+            <div
+              class="d-flex flex-row align-items-center justify-content-center"
+            >
+              <div class="col-sm-6">
+                <p>Time is almost up</p>
+                <h2>
+                  Design clocks <br />
+                  on sale
+                </h2>
+                <a class="btn btn-custom start-shopping-btn" href="#"
+                  >START SHOPPING</a
+                >
+              </div>
+              <div class="col-sm-6 clock-section">
+                <img
+                  class="clockimg"
+                  src="./assets/images/clockindex.png"
+                  alt="ClockImage"
+                />
+                <svg
+                  class="clock-index-blob"
+                  viewBox="0 0 200 200"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill="#E7EAF9"
+                    d="M55.2,-44.9C69.4,-26.1,77.5,-3.3,74,18.8C70.5,40.9,55.4,62.2,34.7,72.1C14.1,82.1,-12,80.6,-32.9,69.9C-53.7,59.2,-69.3,39.3,-72.8,18.3C-76.3,-2.8,-67.7,-25,-53.6,-43.7C-39.4,-62.4,-19.7,-77.7,0.4,-78C20.5,-78.3,40.9,-63.6,55.2,-44.9Z"
+                    transform="translate(100 100)"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="slide-container">
+            <div
+              class="d-flex flex-row align-items-center justify-content-center"
+            >
+              <div class="col-sm-6 text-slider">
+                <p>Our all-time favourites</p>
+                <h2>Black & White</h2>
+                <p class="text-muted">
+                  The bedding was hardly able to cover it and seemed ready to
+                  slide off any moment. His many legs, pit
+                </p>
+                <a class="btn btn-custom start-shopping-btn" href="#"
+                  >Discover more</a
+                >
+              </div>
+              <div class="col-sm-6 chair-section">
+                <img src="./assets/images/chairindex.png" alt="ChairIndex" />
+                <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    fill="#FFDDDD"
+                    d="M60.9,-33.6C74.9,-11,79.4,18.7,67.7,37C55.9,55.3,28,62.1,0.5,61.8C-27,61.6,-53.9,54.1,-63.3,37.3C-72.6,20.4,-64.3,-6,-50.8,-28.3C-37.3,-50.7,-18.6,-69.1,2.4,-70.5C23.5,-71.8,46.9,-56.3,60.9,-33.6Z"
+                    transform="translate(100 100)"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="slide-container">
+            <div
+              class="d-flex flex-row align-items-center justify-content-center"
+            >
+              <div class="col-sm-6 text-slider">
+                <p>Our all-time favourites</p>
+                <h2>Boxxez</h2>
+                <p class="text-muted">
+                  The bedding was hardly able to cover it and seemed ready to
+                  slide off any moment. His many legs, pit
+                </p>
+                <a class="btn btn-custom start-shopping-btn" href="#"
+                  >START SHOPPING</a
+                >
+              </div>
+              <div class="col-sm-6 box-section">
+                <img src="./assets/images/boxesindex.png" alt="BoxesImage" />
+                <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    fill="#F5E6A8"
+                    d="M48.4,-28.9C61.9,-4.5,71.5,21.2,62.8,37C54.1,52.8,27,58.8,0.5,58.5C-26.1,58.3,-52.3,51.8,-65.6,33.3C-78.9,14.8,-79.3,-15.6,-66.3,-39.8C-53.2,-63.9,-26.6,-81.8,-4.6,-79.2C17.4,-76.5,34.9,-53.4,48.4,-28.9Z"
+                    transform="translate(100 100)"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+    <section class="section-one">
+      <div class="main-container">
+        <div class="d-flex flex-row section-head-textcontainer">
+          <div class="col-xl-8">
+            <p class="p-top">Top choices</p>
+            <h3>Popular this week</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+        <section class="product-showcase">
+            <div class="container">
+                <div class="d-flex flex-row products-row">
+                    <div class="col-md-4">
+                        <a href="">
+                            <img class="product-book" src="./assets/images/book-shop.jpeg" alt="Books">
+                        </a>
+                        <div class="product-text-container">
+                            <a href="">
+                                <h3>
+                                    Furniture
+                                    <br />
+                                    source
+                                    <br />
+                                    book
+                                </h3>
+                            </a>
+                            <p class="text-muted book-price">$39.90</p>
+                            <p>
+                                <a class="btn btn-link shop-now-btn" href="">Shop now</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="">
+                            <img class="product-chair" src="./assets/images/chair-shop.jpeg" alt="Chair">
+                        </a>
+                        <div class="product-text-container">
+                            <a href="">
+                                <h3>
+                                    Norwegg
+                                    <br />
+                                    design
+                                    <br />
+                                    chair
+                                </h3>
+                            </a>
+                            <p class="text-muted chair-price">$139.90</p>
+                            <p>
+                                <a class="btn btn-link shop-now-btn" href="">Shop now</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="">
+                            <img class="product-clock" src="./assets/images/clock-sq.jpg" alt="Clock">
+                        </a>
+                        <div class="product-text-container">
+                            <a href="">
+                                <h3>
+                                    Sunn
+                                    <br />
+                                    Clock
+                                </h3>
+                            </a>
+                            <p class="text-muted clock-price">$89.90</p>
+                            <p>
+                                <a class="btn btn-link shop-now-btn" href="">Shop now</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+          
+        <div class="content-container">
+          <div class="d-flex flex-row deal-item-section">
+            <div class="col-lg-6 d-flex align-items-center">
+              <div class="deal-section-text-container">
+                <p class="text-danger deal-title">Deal of the week</p>
+                <h3>
+                  Black and white Nordegg <br />
+                  chairs
+                </h3>
+                <p class="text-muted">
+                  <del>$129.00</del>
+                  <span>$79.00</span>
+                </p>
+                <p>
+                  <span class="badge badge-danger">$50 off</span>
+                </p>
+                <div class="countdown-container">
+                  <div class="d-flex flex-row justify-content-between">
+                    <div class="col-6 col-sm-3">
+                      <h4 id="days"></h4>
+                      <span class="text-muted">days</span>
+                    </div>
+                    <div class="col-6 col-sm-3">
+                      <h4 id="hours"></h4>
+                      <span class="text-muted">hours</span>
+                    </div>
+                    <div class="col-6 col-sm-3">
+                      <h4 id="minutes"></h4>
+                      <span class="text-muted">minutes</span>
+                    </div>
+                    <div class="col-6 col-sm-3">
+                      <h4 id="seconds"></h4>
+                      <span class="text-muted">seconds</span>
+                    </div>
+                  </div>
+                </div>
+                <p>
+                  <a class="btn btn-outline-dark" href="">Shop now</a>
+                </p>
+              </div>
+            </div>
+            <div class="countdown-img-container col-lg-6 text-center">
+              <img
+                src="./assets/images/transparentchair.png"
+                alt="transparentchair"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="new-arrival-main-container">
+      <svg
+        class="custom-yellow-blob"
+        viewBox="0 0 200 200"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          fill="#F7EFCB"
+          d="M46.8,-46.8C55.9,-37.8,55,-18.9,52.5,-2.5C50.1,14,46,28,37,44.3C28,60.6,14,79.1,-3.2,82.3C-20.5,85.6,-40.9,73.5,-57.4,57.2C-73.8,40.9,-86.2,20.5,-84,2.2C-81.8,-16.1,-65.1,-32.3,-48.7,-41.3C-32.3,-50.3,-16.1,-52.2,1.4,-53.6C18.9,-54.9,37.8,-55.8,46.8,-46.8Z"
+          transform="translate(100 100)"
+        />
+      </svg>
+      <div class="new-arrival-container">
+        <h2>New Arrivals</h2>
+        <p class="text-muted">
+          One morning, when Gregor Samsa woke from troubled dreams, he found
+          himself transformed in his bed into a horrible vermin. He lay on his
+          armour-like back, and if he lifted his head a little he could see his
+          brown belly, slightly domed and divided by arches into stiff sections
+        </p>
+        <div
+          class="d-flex justify-content-between align-items-center products-filter-container"
+        >
+          <div class="col-12 col-md">
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a class="text-muted" href="">All Products</a>
+              </li>
+              <li class="list-inline-item">
+                <a class="text-muted" href="">Chairs</a>
+              </li>
+              <li class="list-inline-item">
+                <a class="text-muted" href="">Books</a>
+              </li>
+              <li class="list-inline-item">
+                <a class="text-muted" href="">Clothes</a>
+              </li>
+              <li class="list-inline-item">
+                <a class="text-muted" href="">Accessories</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-auto allproducts-btn">
+            <a class="btn btn-link" href="">All Products</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xl-3 col-md-4 col-6">
+            <div
+              class="product aos-init aos-animate"
+              data-aos="zoom-in"
+              data-aos-once="true"
+            >
+              <div class="greenchaircontainer">
+                <div class="product-badge badge badge-secondary">Fresh</div>
+                <a href="">
+                  <div class="greenchair-image">
+                    <img
+                      class="zoomedout-chair"
+                      src="./assets/images/greenchairzoomedout.jpg"
+                      alt=""
+                    />
+                    <img
+                      class="zoomedin-chair"
+                      src="./assets/images/greenchairzoomedin.jpg"
+                      alt=""
+                    />
+                  </div>
+                </a>
+                <div class="product-hover d-flex">
+                  <span class="add-to-cart" data-product-id="1"
+                    >Add to cart</span
+                  >
+                  <div class="product-hover-item-container">
+                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                    <a href=""><i class="fa-solid fa-expand"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="position-relative">
+                <h3 class="text-base">
+                  <a class="product-name" href="">Norwegg Chair</a>
+                </h3>
+                <span class="text-gray-500 text-sm">$40.00</span>
+                <div class="stars-container text-xs">
+                  <i class="fa fa-star text-primary"></i>
+                  <i class="fa fa-star text-primary"></i>
+                  <i class="fa fa-star text-primary"></i>
+                  <i class="fa fa-star text-primary"></i>
+                  <i class="fa fa-star text-primary"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-4 col-6">
+            <div
+              class="product aos-init aos-animate"
+              data-aos="zoom-in"
+              data-aos-once="true"
+            >
+              <div class="greenchaircontainer">
+                <a href="">
+                  <div class="greenchair-image">
+                    <img
+                      class="zoomedout-chair"
+                      src="./assets/images/books1.jpg"
+                      alt=""
+                    />
+                    <img
+                      class="zoomedin-chair"
+                      src="./assets/images/books-2.jpg"
+                      alt=""
+                    />
+                  </div>
+                </a>
+                <div class="product-hover d-flex">
+                  <span class="add-to-cart" data-product-id="2"
+                    >Add to cart</span
+                  >
+                  <div class="product-hover-item-container">
+                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                    <a href=""><i class="fa-solid fa-expand"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="position-relative">
+                <h3 class="text-base">
+                  <a class="product-name" href="">Book</a>
+                </h3>
+                <span class="text-gray-500 text-sm">$40.00</span>
+                <div class="stars-container text-xs">
+                  <i class="fa fa-star text-primary"></i>
+                  <i class="fa fa-star text-primary"></i>
+                  <i class="fa fa-star text-primary"></i>
+                  <i class="fa fa-star text-primary"></i>
+                  <i class="fa fa-star text-primary"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-4 col-6">
+            <div
+              class="product aos-init aos-animate"
+              data-aos="zoom-in"
+              data-aos-once="true"
+            >
+              <div class="greenchaircontainer">
+                <div class="product-badge badge badge-secondary">Sale</div>
+                <a href="">
+                  <div class="greenchair-image">
+                    <img
+                      class="zoomedout-chair"
+                      src="./assets/images/anotherchair1.jpg"
+                      alt=""
+                    />
+                    <img
+                      class="zoomedin-chair"
+                      src="./assets/images/anotherchair2.jpg"
+                      alt=""
+                    />
+                  </div>
+                </a>
+                <div class="product-hover d-flex">
+                  <span class="add-to-cart" data-product-id="3"
+                    >Add to cart</span
+                  >
+                  <div class="product-hover-item-container">
+                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                    <a href=""><i class="fa-solid fa-expand"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="position-relative">
+                <h3 class="text-base">
+                  <a class="product-name" href="">Another Chair</a>
+                </h3>
+                <span class="text-gray-500 text-sm">$40.00</span>
+                <div class="stars-container text-xs">
+                  <i class="fa fa-star text-primary"></i>
+                  <i class="fa fa-star text-primary"></i>
+                  <i class="fa fa-star text-primary"></i>
+                  <i class="fa fa-star text-primary"></i>
+                  <i class="fa fa-star text-primary"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-4 col-6">
+            <div
+              class="product aos-init aos-animate"
+              data-aos="zoom-in"
+              data-aos-once="true"
+            >
+              <div class="greenchaircontainer">
+                <a href="">
+                  <div class="greenchair-image">
+                    <img
+                      class="zoomedout-chair"
+                      src="./assets/images/yournewchair1.jpg"
+                      alt=""
+                    />
+                    <img
+                      class="zoomedin-chair"
+                      src="./assets/images/yournewchair2.jpg"
+                      alt=""
+                    />
+                  </div>
+                </a>
+                <div class="product-hover d-flex">
+                  <span class="add-to-cart" data-product-id="4"
+                    >Add to cart</span
+                  >
+                  <div class="product-hover-item-container">
+                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                    <a href=""><i class="fa-solid fa-expand"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="position-relative">
+                <h3 class="text-base">
+                  <a class="product-name" href="">Your new chair</a>
+                </h3>
+                <span class="text-gray-500 text-sm">$40.00</span>
+                <div class="stars-container text-xs">
+                  <i class="fa fa-star text-primary"></i>
+                  <i class="fa fa-star text-primary"></i>
+                  <i class="fa fa-star text-primary"></i>
+                  <i class="fa fa-star text-primary"></i>
+                  <i class="fa fa-star text-primary"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-4 col-6">
+            <div
+              class="product aos-init aos-animate"
+              data-aos="zoom-in"
+              data-aos-once="true"
+            >
+              <div class="greenchaircontainer">
+                <a href="">
+                  <div class="greenchair-image">
+                    <img
+                      class="zoomedout-chair"
+                      src="./assets/images/clock1.jpg"
+                      alt=""
+                    />
+                    <img
+                      class="zoomedin-chair"
+                      src="./assets/images/clock2.jpg"
+                      alt=""
+                    />
+                  </div>
+                </a>
+                <div class="product-hover d-flex">
+                  <span class="add-to-cart" data-product-id="5"
+                    >Add to cart</span
+                  >
+                  <div class="product-hover-item-container">
+                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                    <a href=""><i class="fa-solid fa-expand"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="position-relative">
+                <h3 class="text-base">
+                  <a class="product-name" href="">Clock</a>
+                </h3>
+                <span class="text-gray-500 text-sm">$40.00</span>
+                <div class="stars-container text-xs">
+                  <i class="fa fa-star text-primary"></i>
+                  <i class="fa fa-star text-primary"></i>
+                  <i class="fa fa-star text-primary"></i>
+                  <i class="fa fa-star text-primary"></i>
+                  <i class="fa fa-star text-primary"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-4 col-6">
+            <div
+              class="product aos-init aos-animate"
+              data-aos="zoom-in"
+              data-aos-once="true"
+            >
+              <div class="greenchaircontainer">
+                <a href="">
+                  <div class="greenchair-image">
+                    <img
+                      class="zoomedout-chair"
+                      src="./assets/images/clock2-1.jpg"
+                      alt=""
+                    />
+                    <img
+                      class="zoomedin-chair"
+                      src="./assets/images/clock2-2.jpg"
+                      alt=""
+                    />
+                  </div>
+                </a>
+                <div class="product-hover d-flex">
+                  <span class="add-to-cart" data-product-id="6"
+                    >Add to cart</span
+                  >
+                  <div class="product-hover-item-container">
+                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                    <a href=""><i class="fa-solid fa-expand"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="position-relative">
+                <h3 class="text-base">
+                  <a class="product-name" href="">Clock</a>
+                </h3>
+                <span class="text-gray-500 text-sm">$40.00</span>
+                <div class="stars-container text-xs">
+                  <i class="fa fa-star text-primary"></i>
+                  <i class="fa fa-star text-primary"></i>
+                  <i class="fa fa-star text-primary"></i>
+                  <i class="fa fa-star text-primary"></i>
+                  <i class="fa fa-star text-primary"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-4 col-6">
+            <div
+              class="product aos-init aos-animate"
+              data-aos="zoom-in"
+              data-aos-once="true"
+            >
+              <div class="greenchaircontainer">
+                <div class="product-badge badge badge-secondary">Sold out</div>
+                <a href="">
+                  <div class="greenchair-image">
+                    <img
+                      class="zoomedout-chair"
+                      src="./assets/images/accessorybox-1.jpg"
+                      alt=""
+                    />
+                    <img
+                      class="zoomedin-chair"
+                      src="./assets/images/accessorybox-2.jpg"
+                      alt=""
+                    />
+                  </div>
+                </a>
+                <div class="product-hover d-flex">
+                  <span class="add-to-cart" data-product-id="7"
+                    >Add to cart</span
+                  >
+                  <div class="product-hover-item-container">
+                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                    <a href=""><i class="fa-solid fa-expand"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="position-relative">
+                <h3 class="text-base">
+                  <a class="product-name" href="">Accessory box</a>
+                </h3>
+                <span class="text-gray-500 text-sm">$40.00</span>
+                <div class="stars-container text-xs">
+                  <i class="fa fa-star text-primary"></i>
+                  <i class="fa fa-star text-primary"></i>
+                  <i class="fa fa-star text-primary"></i>
+                  <i class="fa fa-star text-primary"></i>
+                  <i class="fa fa-star text-primary"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-4 col-6">
+            <div
+              class="product aos-init aos-animate"
+              data-aos="zoom-in"
+              data-aos-once
+            >
+              <div class="greenchaircontainer">
+                <a href="">
+                  <div class="greenchair-image">
+                    <img
+                      class="zoomedout-chair"
+                      src="./assets/images/beige1.jpg"
+                      alt=""
+                    />
+                    <img
+                      class="zoomedin-chair"
+                      src="./assets/images/beige2.jpg"
+                      alt=""
+                    />
+                  </div>
+                </a>
+                <div class="product-hover d-flex">
+                  <span class="add-to-cart" data-product-id="8"
+                    >Add to cart</span
+                  >
+                  <div class="product-hover-item-container">
+                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                    <a href=""><i class="fa-solid fa-expand"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="position-relative">
+                <h3 class="text-base">
+                  <a class="product-name" href="">Beige</a>
+                </h3>
+                <span class="text-gray-500 text-sm">$40.00</span>
+                <div class="stars-container text-xs">
+                  <i class="fa fa-star text-primary"></i>
+                  <i class="fa fa-star text-primary"></i>
+                  <i class="fa fa-star text-primary"></i>
+                  <i class="fa fa-star text-primary"></i>
+                  <i class="fa fa-star text-primary"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="summer-sales-container">
+      <div class="position-relative text-center">
+        <div class="position-absolute overflow-hidden">
+          <svg
+            class="summer-sales-blob"
+            viewBox="0 0 200 200"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill="#BCAC76"
+              d="M55.4,-40.7C70.7,-25,81.3,-2,74.1,11.9C66.9,25.7,41.9,30.5,19.6,41.5C-2.7,52.6,-22.4,69.9,-31.1,65.4C-39.9,60.9,-37.8,34.5,-39.7,12.9C-41.6,-8.8,-47.5,-25.7,-41.6,-39.2C-35.6,-52.7,-17.8,-62.9,1.1,-63.8C20,-64.7,40.1,-56.3,55.4,-40.7Z"
+              transform="translate(100 100)"
+            />
+          </svg>
+        </div>
+        <div class="summer-sales-text-container">
+          <img
+            class="white-chairsummersales"
+            src="./assets/images/summersaleswhitechair.png"
+            alt=""
+          />
+          <div class="summer-sales-inner-container position-relative">
+            <h4 class="font-weight-bold">Summer Sales</h4>
+            <h5>Our biggest sales this year — up to 60% off!</h5>
+            <a class="btn btn-outline-dark" href="">Start Shopping</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODALS -->
+    <!-- CART MODAL -->
+    <div
+      class="modal fade modal-right show"
+      id="sidebarCart"
+      tabindex="-1"
+      role="dialog"
+      aria-modal="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header border-0">
+            <button
+              class="closebtn"
+              type="button"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="sidebar-cart-product-wrapper">
+              <div class="customscrollbox" tabindex="0">
+                <div class="customscrollbox-container">
+                  <div class="navbar-cart-product"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer sidebar-cart-footer shadow">
+            <div class="w-100">
+              <h5 class="mb-4">
+                Subtotal: <span class="float-right">$0</span>
+              </h5>
+              <a class="btn btn-outline-dark btn-block mb-3" href=""
+                >View cart</a
+              >
+              <br />
+              <a class="btn btn-danger btn-block" href="#">Clear Cart</a>
+              <a class="btn btn-dark btn-block" href="#">Checkout</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- CART MODAL END -->
+    <!-- SIDEBAR START -->
+    <div class="sidebar-modal" tabindex="-1" role="dialog" aria-modal="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header border-0">
+            <button
+              class="closebtn"
+              type="button"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+          </div>
+          <div class="modal-body px-5 pb-5">
+            <div class="body-text-container">
+              <h5>Varkala</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Home </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+                <div class="dropdown show">
+                  <a
+                    class="btn btn-secondary dropdown-toggle"
+                    href="#"
+                    role="button"
+                    id="dropdownMenuLink"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Dropdown link
+                  </a>
+
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a class="dropdown-item" href="">Action</a
+                    ><a class="dropdown-item" href=""> Another action </a
+                    ><a class="dropdown-item" href="">Something else here </a>
+                  </div>
+                </div>
+              </ul>
+              <ul class="list-inline">
+                <li class="list-inline-item">
+                  <i class="fab fa-facebook-f"> </i>
+                </li>
+                <li class="list-inline-item">
+                  <i class="fab fa-twitter"> </i>
+                </li>
+                <li class="list-inline-item">
+                  <i class="fa-solid fa-phone"></i>
+                  020-800-456-747
+                </li>
+              </ul>
+              <p class="text-sm text-muted mb-0">
+                Samsa was a travelling salesman - and above it there hung a
+                picture that he had recently cut out of an illustrated magazine
+                and housed in a nice, gilded frame.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SIDEBAR END -->
+    <footer>
+      <div class="bg-gray-100">
+        <div class="footer-container">
+          <div class="row">
+            <div class="col-lg-3 col-sm-6">
+              <i class="fa-solid fa-truck"></i>
+              <div class="service-text">
+                <h6 class="text-sm">Free shipping & return</h6>
+                <p class="text-muted">Free Shipping over $300</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <i class="fa-solid fa-money-bill"></i>
+              <div class="service-text">
+                <h6 class="text-sm">Money back guarantee</h6>
+                <p class="text-muted">30 Days Money Back Guarantee</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <i class="fa-solid fa-percent"></i>
+              <div class="service-text">
+                <h6 class="text-sm">Best prices</h6>
+                <p class="text-muted">Always the best prices</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <i class="fa-solid fa-headset"></i>
+              <div class="service-text">
+                <h6 class="text-sm">020-800-456-747</h6>
+                <p class="text-muted">24/7 Available Support</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-last text-muted">
+        <div class="footer-last-container">
+          <div class="row">
+            <div class="col-lg-5 pr-lg-5 pr-xl-6 mb-5 mb-lg-0">
+              <h6 class="text-dark">Be in touch</h6>
+              <p class="text-sm">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. At
+                itaque temporibus.
+              </p>
+              <form action="">
+                <div class="email-input-underlined">
+                  <input type="text" placeholder="Your Email Address" />
+                  <i class="fa-regular fa-envelope"></i>
+                </div>
+              </form>
+            </div>
+            <div class="normal col-lg-7">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="expand-lg-collapse">
+                    <h6 class="text-dark">Shop</h6>
+                    <ul>
+                      <li>
+                        <a href="">For Women</a>
+                      </li>
+                      <li>
+                        <a href="">For Men</a>
+                      </li>
+                      <li>
+                        <a href="">Stores</a>
+                      </li>
+                      <li>
+                        <a href="">Our Blog</a>
+                      </li>
+                      <li>
+                        <a href="">Shop</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="expand-lg-collapse">
+                    <h6 class="text-dark">Company</h6>
+                    <ul>
+                      <li>
+                        <a href="">Login</a>
+                      </li>
+                      <li>
+                        <a href="">Register</a>
+                      </li>
+                      <li>
+                        <a href="">Wishlist</a>
+                      </li>
+                      <li>
+                        <a href="">Our Products</a>
+                      </li>
+                      <li>
+                        <a href="">Checkouts</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="expand-lg-collapse">
+                    <h6 class="text-dark">Your Account</h6>
+                    <ul>
+                      <li>
+                        <a href="">Login</a>
+                      </li>
+                      <li>
+                        <a href="">Register</a>
+                      </li>
+                      <li>
+                        <a href="">Wishlist</a>
+                      </li>
+                      <li>
+                        <a href="">Our Products</a>
+                      </li>
+                      <li>
+                        <a href="">Checkouts</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="responsive col-lg-7">
+              <div class="row">
+                <div class="col-lg-4">
+                  <a class="shop responsive-footer-tags" href="#"
+                    >Shop
+                    <span class="expandable-plus">+</span>
+                    <span class="expandable-minus">-</span>
+                  </a>
+                </div>
+                <div class="shop expand-lg-collapse">
+                  <ul>
+                    <li>
+                      <a href="">For Women</a>
+                    </li>
+                    <li>
+                      <a href="">For Men</a>
+                    </li>
+                    <li>
+                      <a href="">Stores</a>
+                    </li>
+                    <li>
+                      <a href="">Our Blog</a>
+                    </li>
+                    <li>
+                      <a href="">Shop</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-4">
+                  <a class="company responsive-footer-tags" href="#"
+                    >Company
+                    <span class="expandable-plus">+</span>
+                    <span class="expandable-minus">-</span></a
+                  >
+                </div>
+                <div class="company expand-lg-collapse">
+                  <ul>
+                    <li>
+                      <a href="">For Women</a>
+                    </li>
+                    <li>
+                      <a href="">For Men</a>
+                    </li>
+                    <li>
+                      <a href="">Stores</a>
+                    </li>
+                    <li>
+                      <a href="">Our Blog</a>
+                    </li>
+                    <li>
+                      <a href="">Shop</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-4">
+                  <a class="account responsive-footer-tags" href="#"
+                    >Your Account
+                    <span class="expandable-plus">+</span>
+                    <span class="expandable-minus">-</span></a
+                  >
+                </div>
+                <div class="account expand-lg-collapse">
+                  <ul>
+                    <li>
+                      <a href="">For Women</a>
+                    </li>
+                    <li>
+                      <a href="">For Men</a>
+                    </li>
+                    <li>
+                      <a href="">Stores</a>
+                    </li>
+                    <li>
+                      <a href="">Our Blog</a>
+                    </li>
+                    <li>
+                      <a href="">Shop</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-end-container">
+        <div class="row align-items-center">
+          <div class="col-lg-4">
+            <p>© 2020 Your company. All rights reserved.</p>
+          </div>
+          <div class="col-lg-8">
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a class="text-reset" href="#">Terms &amp; Conditions </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="text-reset" href="#">Privacy &amp; cookies </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="text-reset" href="#">Accessibility </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="text-reset" href="#">Customer Data Promise </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script>
+    AOS.init();
+  </script>
+</html>
